@@ -81,16 +81,14 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                      We're Changing the World with Technology {" "}
+                        <span>How could we live without it!</span>
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                        I am so interested in programming, I’ve always been curious about how things work and how I can make things. The most part I like in programming is how a written code can be transformed    into a wonderful website serving the users!
                       </p>
                       <div className="btn-wrapper">
-                        <Button
+                        {/* <Button
                           className="btn-icon mb-3 mb-sm-0"
                           color="info"
                           href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
@@ -111,7 +109,7 @@ class Landing extends React.Component {
                           <span className="btn-inner--text">
                             Download React
                           </span>
-                        </Button>
+                        </Button> */}
                       </div>
                     </Col>
                   </Row>
@@ -142,35 +140,27 @@ class Landing extends React.Component {
                 <Col lg="12">
                   <Row className="row-grid">
                     <Col lg="4">
-                      <Card className="card-lift--hover shadow border-0">
+                      <Card className="card-lift--hover shadow border-0" style={{width:'20rem', height:'26rem', marginBlock: '2rem'}}>
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            Jo-Hikers Website
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            Jo-Hikers is a website for showing the users many different natural places that most people don’t know about to encourage tourism in Jordan. 
+                            Also it allows the users to book a trip and choose their favourite programm.
                           </p>
-                          <div>
-                            <Badge color="primary" pill className="mr-1">
-                              design
-                            </Badge>
-                            <Badge color="primary" pill className="mr-1">
-                              system
-                            </Badge>
-                            <Badge color="primary" pill className="mr-1">
-                              creative
-                            </Badge>
-                          </div>
                           <Button
                             className="mt-4"
                             color="primary"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            href="https://adventurers-team.github.io/JO-Hikers/"
+                            target="_blank"
+                            marginButtom='2rem'
+
+
+                            // onClick={e => e.preventDefault()}
                           >
                             Learn more
                           </Button>
@@ -178,35 +168,23 @@ class Landing extends React.Component {
                       </Card>
                     </Col>
                     <Col lg="4">
-                      <Card className="card-lift--hover shadow border-0">
+                      <Card className="card-lift--hover shadow border-0" style={{width:'20rem', height:'26rem', marginBlock: '2rem'}} >
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
                             <i className="ni ni-istanbul" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                            Salmon Cookie Stand
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            Salmon Cookie Stand is a website that calculates the number of cookies for each shop every day based on the average cookies per customers and the min and max number of customers each hour and showing the results in a table.
                           </p>
-                          <div>
-                            <Badge color="success" pill className="mr-1">
-                              business
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              vision
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              success
-                            </Badge>
-                          </div>
                           <Button
                             className="mt-4"
                             color="success"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            href="https://rawanazazi12.github.io/cookie-stand/"
+                            // onClick={e => e.preventDefault()}
+                            target="_blank"
                           >
                             Learn more
                           </Button>
@@ -214,35 +192,75 @@ class Landing extends React.Component {
                       </Card>
                     </Col>
                     <Col lg="4">
-                      <Card className="card-lift--hover shadow border-0">
+                      <Card className="card-lift--hover shadow border-0" style={{width:'20rem', height:'26rem', marginBlock: '2rem'}}>
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
                             <i className="ni ni-planet" />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                            Bus Mall
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                           Bus Mall is a website renderd a lot of products randomly and allows the users to vote for their favourite one by clicking on the image. Also they can see the results in a chart and what is the highly voted one after finishing their votes attempts.
                           </p>
-                          <div>
-                            <Badge color="warning" pill className="mr-1">
-                              marketing
-                            </Badge>
-                            <Badge color="warning" pill className="mr-1">
-                              product
-                            </Badge>
-                            <Badge color="warning" pill className="mr-1">
-                              launch
-                            </Badge>
-                          </div>
                           <Button
                             className="mt-4"
                             color="warning"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            href="https://rawanazazi12.github.io/bus-mall/"
+                            target="_blank"
+                          >
+                            Learn more
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0" style={{width:'20rem', height:'26rem', marginBlock: '2rem'}}>
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
+                            <i className="ni ni-check-bold" />
+                          </div>
+                          <h6 className="text-primary text-uppercase">
+                            301 Project
+                          </h6>
+                          <p className="description mt-3">
+                          The kit comes with three pre-built pages to help you get
+                      started faster. You can change the text and images and
+                      you're good to go.
+                          </p>
+                          <Button
+                            className="mt-4"
+                            color="primary"
+                            href="https://adventurers-team.github.io/JO-Hikers/"
+                            target="_blank"
+
+                            // onClick={e => e.preventDefault()}
+                          >
+                            Learn more
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="4">
+                      <Card className="card-lift--hover shadow border-0" style={{width:'20rem', height:'26rem', marginBlock: '2rem'}} >
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
+                            <i className="ni ni-istanbul" />
+                          </div>
+                          <h6 className="text-success text-uppercase">
+                            401 Project
+                          </h6>
+                          <p className="description mt-3">
+                          The kit comes with three pre-built pages to help you get
+                      started faster. You can change the text and images and
+                      you're good to go.
+                          </p>
+                          <Button
+                            className="mt-4"
+                            color="success"
+                            href="https://rawanazazi12.github.io/cookie-stand/"
+                            // onClick={e => e.preventDefault()}
+                            target="_blank"
                           >
                             Learn more
                           </Button>
@@ -254,7 +272,7 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
-          <section className="section section-lg">
+          {/* <section className="section section-lg">
             <Container>
               <Row className="row-grid align-items-center">
                 <Col className="order-md-2" md="6">
@@ -330,7 +348,7 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </section>
+          </section> */}
           <section className="section bg-secondary">
             <Container>
               <Row className="row-grid align-items-center">
