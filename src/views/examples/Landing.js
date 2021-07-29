@@ -224,17 +224,14 @@ class Landing extends React.Component {
                             301 Project
                           </h6>
                           <p className="description mt-3">
-                          The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                          The description for 301 course project
+
                           </p>
                           <Button
                             className="mt-4"
                             color="primary"
-                            href="https://adventurers-team.github.io/JO-Hikers/"
+                            href="#"
                             target="_blank"
-
-                            // onClick={e => e.preventDefault()}
                           >
                             Learn more
                           </Button>
@@ -251,15 +248,12 @@ class Landing extends React.Component {
                             401 Project
                           </h6>
                           <p className="description mt-3">
-                          The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                      The description for 401 course project
                           </p>
                           <Button
                             className="mt-4"
                             color="success"
-                            href="https://rawanazazi12.github.io/cookie-stand/"
-                            // onClick={e => e.preventDefault()}
+                            href="#"
                             target="_blank"
                           >
                             Learn more
@@ -352,7 +346,7 @@ class Landing extends React.Component {
           <section className="section bg-secondary">
             <Container>
               <Row className="row-grid align-items-center">
-                <Col md="6">
+                {/* <Col md="6">
                   <Card className="bg-default shadow border-0">
                     <CardImg
                       alt="..."
@@ -386,36 +380,97 @@ class Landing extends React.Component {
                       </p>
                     </blockquote>
                   </Card>
-                </Col>
+                </Col> */}
                 <Col md="6">
                   <div className="pl-md-5">
                     <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
                       <i className="ni ni-settings" />
                     </div>
-                    <h3>Our customers</h3>
+                    <h3>Background</h3>
                     <p className="lead">
-                      Don't let your uses guess by attaching tooltips and
-                      popoves to any element. Just make sure you enable them
-                      first via JavaScript.
+                    I have a bachelor’s degree in Civil Engineering from the University of Jordan, and I am currently a software development student at ASAC. After finishing my university study, I've started my journey looking for a position where I can find myself. 
                     </p>
-                    <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                    <p className="lead">
+                    Unfortunately I couldn't find what I was looking for, I couldn't find any opportunity that supports my ambitions, so I decided to join a software development course at ASAC cause
+                    I have a great passion to learn about programming. And I am looking forward to be a successful software developer.
                     </p>
-                    <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
-                    </p>
-                    <a
+                    {/* <a
                       className="font-weight-bold text-warning mt-5"
                       href="#pablo"
                       onClick={e => e.preventDefault()}
                     >
                       A beautiful UI Kit for impactful websites
-                    </a>
+                    </a> */}
                   </div>
+                </Col>
+                <Col lg="6">
+                  <Card className="bg-gradient-secondary shadow">
+                    <CardBody className="p-lg-5">
+                      <h4 className="mb-1">Are you thinking of hire me?</h4>
+                      <p className="mt-0">
+                        Your support is highly appreciated, looking forward to hearing from you!
+                      </p>
+                      <FormGroup
+                        className={classnames("mt-5", {
+                          focused: this.state.nameFocused
+                        })}
+                      >
+                        <InputGroup className="input-group-alternative">
+                          <InputGroupAddon addonType="prepend">
+                            <InputGroupText>
+                              <i className="ni ni-user-run" />
+                            </InputGroupText>
+                          </InputGroupAddon>
+                          <Input
+                            placeholder="Your Company name"
+                            type="text"
+                            onFocus={() => this.setState({ nameFocused: true })}
+                            onBlur={() => this.setState({ nameFocused: false })}
+                          />
+                        </InputGroup>
+                      </FormGroup>
+                      <FormGroup
+                        className={classnames({
+                          focused: this.state.emailFocused
+                        })}
+                      >
+                        <InputGroup className="input-group-alternative">
+                          <InputGroupAddon addonType="prepend">
+                            <InputGroupText>
+                              <i className="ni ni-email-83" />
+                            </InputGroupText>
+                          </InputGroupAddon>
+                          <Input
+                            placeholder="Email address"
+                            type="email"
+                            onFocus={() => this.setState({ emailFocused: true })}
+                            onBlur={() => this.setState({ emailFocused: false })}
+                          />
+                        </InputGroup>
+                      </FormGroup>
+                      <FormGroup className="mb-4">
+                        <Input
+                          className="form-control-alternative"
+                          cols="80"
+                          name="name"
+                          placeholder="Type a message..."
+                          rows="4"
+                          type="textarea"
+                        />
+                      </FormGroup>
+                      <div>
+                        <Button
+                          block
+                          className="btn-round"
+                          color="default"
+                          size="lg"
+                          type="button"
+                        >
+                          Send Message
+                        </Button>
+                      </div>
+                    </CardBody>
+                  </Card>
                 </Col>
               </Row>
             </Container>
@@ -440,23 +495,21 @@ class Landing extends React.Component {
                       </div>
                     </div>
                     <div className="pl-4">
-                      <h4 className="display-3 text-white">Modern Interface</h4>
+                      <h4 className="display-3 text-white">Contact Me</h4>
                       <p className="text-white">
-                        The Arctic Ocean freezes every winter and much of the
-                        sea-ice then thaws every summer, and that process will
-                        continue whatever.
+                        email: rawanazazi12@gmail
                       </p>
                     </div>
                   </div>
-                  <Card className="shadow shadow-lg--hover mt-5">
+                  {/* <Card className="shadow shadow-lg--hover mt-5">
                     <CardBody>
                       <div className="d-flex px-3">
                         <div>
                           <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
                             <i className="ni ni-satisfied" />
                           </div>
-                        </div>
-                        <div className="pl-4">
+                        </div> */}
+                        {/* <div className="pl-4">
                           <h5 className="title text-success">
                             Awesome Support
                           </h5>
@@ -473,10 +526,10 @@ class Landing extends React.Component {
                             Learn more
                           </a>
                         </div>
-                      </div>
-                    </CardBody>
-                  </Card>
-                  <Card className="shadow shadow-lg--hover mt-5">
+                      </div> */}
+                    {/* </CardBody>
+                  </Card> */}
+                  {/* <Card className="shadow shadow-lg--hover mt-5">
                     <CardBody>
                       <div className="d-flex px-3">
                         <div>
@@ -503,12 +556,12 @@ class Landing extends React.Component {
                         </div>
                       </div>
                     </CardBody>
-                  </Card>
+                  </Card> */}
                 </Col>
               </Row>
             </Container>
             {/* SVG separator */}
-            <div className="separator separator-bottom separator-skew zindex-100">
+            {/* <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="none"
@@ -522,9 +575,9 @@ class Landing extends React.Component {
                   points="2560 0 2560 100 0 100"
                 />
               </svg>
-            </div>
+            </div> */}
           </section>
-          <section className="section section-lg">
+          {/* <section className="section section-lg">
             <Container>
               <Row className="justify-content-center text-center mb-lg">
                 <Col lg="8">
@@ -709,8 +762,8 @@ class Landing extends React.Component {
                 </Col>
               </Row>
             </Container>
-          </section>
-          <section className="section section-lg pt-0">
+          </section> */}
+          {/* <section className="section section-lg pt-0">
             <Container>
               <Card className="bg-gradient-warning shadow-lg border-0">
                 <div className="p-5">
@@ -740,9 +793,9 @@ class Landing extends React.Component {
                 </div>
               </Card>
             </Container>
-          </section>
-          <section className="section section-lg bg-gradient-default">
-            <Container className="pt-lg pb-300">
+          </section> */}
+          {/* <section className="section section-lg bg-gradient-default"> */}
+            {/* <Container className="pt-lg pb-300">
               <Row className="text-center justify-content-center">
                 <Col lg="10">
                   <h2 className="display-3 text-white">Build something</h2>
@@ -786,9 +839,8 @@ class Landing extends React.Component {
                   </p>
                 </Col>
               </Row>
-            </Container>
-            {/* SVG separator */}
-            <div className="separator separator-bottom separator-skew zindex-100">
+            </Container> */}
+            {/* <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="none"
@@ -802,84 +854,16 @@ class Landing extends React.Component {
                   points="2560 0 2560 100 0 100"
                 />
               </svg>
-            </div>
-          </section>
-          <section className="section section-lg pt-lg-0 section-contact-us">
+            </div> */}
+          {/* </section> */}
+          {/* <section className="section section-lg pt-lg-0 section-contact-us">
             <Container>
               <Row className="justify-content-center mt--300">
-                <Col lg="8">
-                  <Card className="bg-gradient-secondary shadow">
-                    <CardBody className="p-lg-5">
-                      <h4 className="mb-1">Want to work with us?</h4>
-                      <p className="mt-0">
-                        Your project is very important to us.
-                      </p>
-                      <FormGroup
-                        className={classnames("mt-5", {
-                          focused: this.state.nameFocused
-                        })}
-                      >
-                        <InputGroup className="input-group-alternative">
-                          <InputGroupAddon addonType="prepend">
-                            <InputGroupText>
-                              <i className="ni ni-user-run" />
-                            </InputGroupText>
-                          </InputGroupAddon>
-                          <Input
-                            placeholder="Your name"
-                            type="text"
-                            onFocus={() => this.setState({ nameFocused: true })}
-                            onBlur={() => this.setState({ nameFocused: false })}
-                          />
-                        </InputGroup>
-                      </FormGroup>
-                      <FormGroup
-                        className={classnames({
-                          focused: this.state.emailFocused
-                        })}
-                      >
-                        <InputGroup className="input-group-alternative">
-                          <InputGroupAddon addonType="prepend">
-                            <InputGroupText>
-                              <i className="ni ni-email-83" />
-                            </InputGroupText>
-                          </InputGroupAddon>
-                          <Input
-                            placeholder="Email address"
-                            type="email"
-                            onFocus={() => this.setState({ emailFocused: true })}
-                            onBlur={() => this.setState({ emailFocused: false })}
-                          />
-                        </InputGroup>
-                      </FormGroup>
-                      <FormGroup className="mb-4">
-                        <Input
-                          className="form-control-alternative"
-                          cols="80"
-                          name="name"
-                          placeholder="Type a message..."
-                          rows="4"
-                          type="textarea"
-                        />
-                      </FormGroup>
-                      <div>
-                        <Button
-                          block
-                          className="btn-round"
-                          color="default"
-                          size="lg"
-                          type="button"
-                        >
-                          Send Message
-                        </Button>
-                      </div>
-                    </CardBody>
-                  </Card>
-                </Col>
+                
               </Row>
             </Container>
           </section>
-          <Download />
+          <Download /> */}
         </main>
         <CardsFooter />
       </>

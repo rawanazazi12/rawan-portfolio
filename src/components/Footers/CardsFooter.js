@@ -41,7 +41,7 @@ class CardsFooter extends React.Component {
         <footer className="footer has-cards">
           <Container className="container-lg">
             <Row>
-              <Col className="mb-5 mb-md-0" md="6">
+              {/* <Col className="mb-5 mb-md-0" md="6">
                 <Card className="card-lift--hover shadow border-0">
                   <Link to="/landing-page">
                     <CardImg
@@ -72,8 +72,8 @@ class CardsFooter extends React.Component {
                 <h4 className="mb-0 font-weight-light">
                   Let's get in touch on any of these platforms.
                 </h4>
-              </Col>
-              <Col className="text-lg-center btn-wrapper" lg="6">
+              </Col> */}
+              {/* <Col className="text-lg-center btn-wrapper" lg="6">
                 <Button
                   className="btn-icon-only rounded-circle"
                   color="twitter"
@@ -130,9 +130,8 @@ class CardsFooter extends React.Component {
                 <UncontrolledTooltip delay={0} target="tooltip495507257">
                   Star on Github
                 </UncontrolledTooltip>
-              </Col>
+              </Col> */}
             </Row>
-            <hr />
             <Row className="align-items-center justify-content-md-between">
               <Col md="6">
                 <div className="copyright">
@@ -146,7 +145,7 @@ class CardsFooter extends React.Component {
                   .
                 </div>
               </Col>
-              <Col md="6">
+              {/* <Col md="6">
                 <Nav className="nav-footer justify-content-end">
                   <NavItem>
                     <NavLink
@@ -181,7 +180,7 @@ class CardsFooter extends React.Component {
                     </NavLink>
                   </NavItem>
                 </Nav>
-              </Col>
+              </Col> */}
             </Row>
           </Container>
         </footer>
