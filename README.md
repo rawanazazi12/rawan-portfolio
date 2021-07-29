@@ -8,7 +8,7 @@ Creating my portfolio account.
 
 ## Time Estimate Lab05
 
- ### Feature #1: Portfolio Preperation
+### Feature #1: Portfolio Preperation
 
 - *Estimate of time needed to complete*: 4 hr
 
@@ -18,6 +18,9 @@ Creating my portfolio account.
 
 - *Actual time needed to complete*: 6hr 5 mins
 
+### The deployment URL            
+ [My Portfolio](https://rawan-azazi-portfolio.netlify.app)
+ 
 ## Links and Resources
 
 - My notes during the lecture
